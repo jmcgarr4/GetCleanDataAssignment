@@ -38,4 +38,4 @@ The output file ˜tidy_data_mcdarr.txt" can be pulled into R with the following 
 
 R> read.table("tidy_data_mcdarr.txt")
 
-Each row of the dataset contains the average measurment for each Subject and Activity combination for each of the mean, standard deviation, and mean frequency measures. For example, the first row of the file shows the average measures for Subject #1 while Laying.
+Each row of the dataset contains the average measurment for each Subject and Activity combination for each of the mean, standard deviation, and mean frequency measures. For example, the first row of the file shows the average measures for Subject #1 while laying.
