@@ -8,28 +8,30 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 These signals were used to estimate variables of the feature vector for each pattern:  
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
-TimeBodyAcc-XYZ
-TimeGravityAcc-XYZ
-TimeBodyAccJerk-XYZ
-TimeBodyGyro-XYZ
-TimeBodyGyroJerk-XYZ
-TimeBodyAccMag
-TimeGravityAccMag
-TimeBodyAccJerkMag
-TimeBodyGyroMag
-TimeBodyGyroJerkMag
-FrequencyBodyAcc-XYZ
-FrequencyBodyAccJerk-XYZ
-FrequencyBodyGyro-XYZ
-FrequencyBodyAccMag
-FrequencyBodyAccJerkMag
-FrequencyBodyGyroMag
-FrequencyBodyGyroJerkMag
+TimeBodyAcc-XYZ, 
+TimeGravityAcc-XYZ, 
+TimeBodyAccJerk-XYZ, 
+TimeBodyGyro-XYZ. 
+TimeBodyGyroJerk-XYZ, 
+TimeBodyAccMag, 
+TimeGravityAccMag, 
+TimeBodyAccJerkMag, 
+TimeBodyGyroMag, 
+TimeBodyGyroJerkMag, 
+FrequencyBodyAcc-XYZ, 
+FrequencyBodyAccJerk-XYZ, 
+FrequencyBodyGyro-XYZ, 
+FrequencyBodyAccMag, 
+FrequencyBodyAccJerkMag, 
+FrequencyBodyGyroMag, 
+FrequencyBodyGyroJerkMag, 
 
 The set of variables that were estimated from these signals are: 
 
 mean(): Mean value -- labeled "Mean" in the final dataset
+
 std(): Standard deviation -- labeled "StDev" in the final dataset
+
 meanFreq(): Weighted average of the frequency components to obtain a mean frequency -- labeled "MeanFreq" in the final dataset
 
 The data from the test and train measurements have been combined into one tidy dataset and averaged by Subject and Activity.
